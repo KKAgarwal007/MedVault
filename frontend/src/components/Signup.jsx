@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import dp from '../assets/logo.jpeg'
 import axios from 'axios';
-import { dataContext } from '../context/usercontext';
+import { dataContext } from '../Context/UserContext';
 
 function Signup() {
   const [email, setEmail] = useState('');
