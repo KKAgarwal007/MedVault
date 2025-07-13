@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 export const dataContext = createContext();
 
 function UserContext({children}) {
-  let serverUrl = "http://localhost:8000"
+  let serverUrl = "https://medvault-backend-kt3b.onrender.com"
   let [userData,setUserData] = useState(null);
   let getUserData = async ()=>{
   try{
