@@ -3,7 +3,7 @@ import MedVaultDashboard from './components/MedVaultDashboard'
 import Login from './components/Login'
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Signup from './components/SignUp';
-import { dataContext } from './context/usercontext';
+import { dataContext } from './context/UserContext';
 import UserStats from './components/UserStats';
 
 function App() {
