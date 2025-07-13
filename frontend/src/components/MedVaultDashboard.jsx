@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import { dataContext } from '../context/usercontext';
+import { dataContext } from '../Context/UserContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import UserStats from './UserStats';
