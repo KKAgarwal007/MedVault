@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import MedVaultDashboard from './components/MedVaultDashboard'
 import Login from './components/Login'
 import { Navigate, Route, Routes } from 'react-router-dom';
-import Signup from './components/SignUp';
+import Signup from './components/Signup';
 import { dataContext } from './Context/UserContext';
 import UserStats from './components/UserStats';
 
