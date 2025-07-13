@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import dp from '../assets/logo.jpeg'
-import { dataContext } from '../context/usercontext'
+import { dataContext } from '../Context/UserContext'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
